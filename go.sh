@@ -1,0 +1,11 @@
+ansible-playbook main.yml -e "provider=gce
+                                server_name=algo_ansible
+                                ondemand_cellular=false
+                                ondemand_wifi=false
+                                local_dns=true
+                                ssh_tunneling=false
+                                windows=false
+                                store_cakey=false
+                                region=us-east1-b
+                                do_token=token
+				gce_credentials_file=/home/david/Documents/VPNs/bwap-111d0-7ba195b36abf.json"
