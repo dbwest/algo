@@ -7,3 +7,5 @@ env
 .DS_Store
 venvs/*
 !venvs/.gitinit
+bwap_secret/*
+bwap_secret
